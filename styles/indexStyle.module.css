@@ -1,0 +1,221 @@
+* {
+	font-family: arial;
+}
+
+#bodyDiv {
+	width: 100vw;
+	height: 100vh;
+	
+}
+
+#loginBlock {
+	width: 100vw;
+	text-align: center;
+	background-color: #ffffff;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h5 {
+	text-align: center;
+	font-size: 1.5em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+
+#logo {
+	margin-top: -2em;
+	text-align: center;
+	padding: 0;
+	background-color: #ffffff;
+	border-radius: 50%;
+	padding: 0.5em;
+	display: inline-block;
+}
+
+img {
+	width: 2.8rem;
+}
+
+#formDiv > input {
+	border: 0;
+	width: 80%;
+	border-radius: 5px;
+	background: transparent;
+	padding: 0.9em;
+	-webkit-appearance: none;
+	background: #f3f3f3;
+	font-size: 0.8em;
+}
+
+#formDiv > p {
+	color: #000;
+	text-align: start;
+	margin: 0;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	margin-left: 8%;
+	font-size: 1em;
+}
+
+#formDiv > select {
+	width: 90%;
+	margin-top: 0.1em;
+	background: #f3f3f3;
+}
+
+#selectType {
+	font-size: 0.8em;
+	border: 0;
+	width: 100%;
+	border-radius: 5px;
+	padding: 0.8em;
+	-webkit-appearance: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+#forgot {
+	color: rgb(34, 34, 34);
+	text-align: start;
+	margin-top: 1em;
+	font-family: arial;
+	margin-left: 9%;
+	text-decoration: none;
+	font-size: 0.7em;
+}
+
+button {
+	background-color: #2699fb;
+	color: #fff;
+	border-radius: 5px;
+	margin-top: 1.6em;
+	margin-bottom: 3em;
+	border: 0;
+	width: 60%;
+	padding: 0.5em 0 0.5em;
+}
+
+#registerLink {
+	font-family: arial;
+	margin-left: 0.5em;
+	font-size: 0.7em;
+	color: #6d6d6d;
+	text-decoration: none;
+}
+
+#secondDiv {
+	text-align: center;
+	margin-bottom: -4em;
+}
+ @media screen and (min-width: 320px) {
+	
+	#formDiv > p {
+		margin-left: 6%;
+		font-size: .9em;
+	}
+	
+	#selectType {
+		font-size: 0.8em;
+		padding: 0.7em;
+	}
+
+	#formDiv > input {
+		width: 85%;
+		padding: 0.8em;
+		font-size: 0.8em;
+	}
+	
+	button {
+		width: 70%;
+		padding: 0.5em 0 0.5em;
+	}
+
+}
+
+@media screen and (min-width: 480px) {
+	
+	#bodyDiv {
+		background-color: #f5f7fa;
+	}
+
+	#loginBlock {
+		width: 65vw;
+		padding: 0em 2em 2em 2em;
+	}
+ 
+} 
+
+@media screen and (min-width: 480px) {
+	#loginBlock {
+		width: 55vw;
+		padding: 0em 2em 2em 2em;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	
+	#formDiv > p {
+		margin-top: 1.3em;
+		margin-left: 8%;
+		font-size: .8em;
+	}
+	
+	#formDiv > select {
+		width: 85%;
+
+	}
+
+	#formDiv > input {
+		width: 80%;
+		padding: 0.78em;
+		font-size: 0.8em;
+	}
+
+	#loginBlock {
+		width: 45vw;
+		padding: 0em 3em 2.5em 3em;
+	}
+
+	h5 {
+		font-size: 1.3em;
+	}
+
+	#selectType {
+		font-size: 0.79em;
+		padding: 0.7em;
+		-webkit-appearance: none;
+	}
+
+	button {
+		margin-top: 1.8em;
+		margin-bottom: 3em;
+		border: 0;
+		padding: 0.5em 0 0.5em;
+	}
+
+	#secondDiv {
+		margin-bottom: -4.5em;
+	}
+} 
+
+@media screen and (min-width: 992px) {
+	
+	#loginBlock {
+		width: 30vw;
+		padding: 0em 3em 2.5em 3em;
+	}
+} 
+
+@media screen and (min-width: 1200px) {
+	
+	#loginBlock {
+		width: 25vw;
+	}
+} 
