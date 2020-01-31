@@ -34,7 +34,7 @@ class RegisterPageComponent extends React.Component {
                     </div>
                     <button id={styles.loginButton}>Register</button>
 					<div id={styles.secondDiv}>
-						<Link id={styles.registerLink} to="./">
+						<Link id={styles.registerLink} to="./farmerHomescreen">
 							Have an account..? <span>Sign In</span>
 						</Link>
 					</div>

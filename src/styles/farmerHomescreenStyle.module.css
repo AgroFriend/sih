@@ -1,0 +1,157 @@
+#fhAll {
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f7fa;
+}
+
+.fhTopBar {
+    padding: .1em;
+    text-align: center;
+    width: 100vw;
+    background-color: #2699FB;
+}
+
+.homePanel {
+    display: flex;
+}
+
+#fhLogo > img{
+    width: 2.5em;
+}
+
+.fhLinks{
+    display: block;
+}
+
+.fhSidePanel {
+    width: 24.25vw;
+    height: 90vh;
+    /* background-color: #fff; */
+    margin: 1vh .5vw 1vh 1vw;
+}
+
+.fhMainPanel {
+    width: 75.75vw;
+    height: 95vh;
+    background-color: #f5f7fa;
+    margin: 1vh 1vw 1vh .5vw;
+}
+
+.fhPagesPanel {
+    background-color: #fff;
+    height: 65%;
+}
+
+.fhNotificationPanel {
+    margin-top: 10px;
+    background-color: #fff;
+    height: 35%;
+    padding: 1em;
+}
+
+.fhNotificationPanel > p{
+    background-color: #fff;
+    height: 35%;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.fhPagesPanel {
+    padding: 1em;
+    padding-left: 2em;
+}
+
+.fhProfileName {
+     display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.fhProfileName  > div > img{
+    width: 30px;
+}
+
+.fhProfileName  > p{
+    font-size: 1.2em;
+    margin-left: .5em;
+}
+
+.fhLinks {
+    text-decoration: none;
+    color: #000;
+    margin-top: .5em;
+    padding-left: 20px;
+}
+
+.searchDiv {
+    background-color: white;
+    padding: 30px;
+}
+
+.selectType {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.selectType > p{
+    padding: 10px;
+    margin-right: 40px;
+    background-color: rgba(38, 152, 251, 0.253);
+    border-radius: 5px;
+}
+
+.searchDiv > input {
+    border: 0;
+	width: 70%;
+	border-radius: 5px;
+	background: transparent;
+	padding: 1.1em;
+	-webkit-appearance: none;
+	background: #f3f3f3;
+	font-size: 0.8em;
+}
+
+.searchDiv > button {
+    width: 20%;
+    margin-left: 3%;
+    margin-bottom: 20px;
+    padding: 0.8em;
+}
+
+.farmerPost {
+    margin: 30px auto;
+    height: 50%;
+    width: 70%;
+    background-color: rgb(211, 206, 206);
+    border-radius: 5px;
+}
+
+.cropNameDiv {
+    background-color: #fff;
+    padding: 15px 0 17px 15px;
+    color: #2699FB;
+    font-family: bold;
+    font-size: 1.2em;
+}
+
+.cropImageDiv {
+    height: 60%;
+    background: green;
+    width: 100%;
+}
+
+.cropDescriptionDiv {
+    background-color: #fff;
+    height: 28%;
+}
+
+.cropDescriptionDiv > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px 10px 15px;
+}
+
+.cropDescriptionDiv > p{
+    padding-left: 15px;
+}
