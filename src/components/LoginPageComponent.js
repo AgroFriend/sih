@@ -5,7 +5,7 @@ import {Link} from 'gatsby'
 class LoginPage extends React.Component {
 	render() {
 		return (
-			<div>
+			<div id={styles.bodyDiv}>
 				<div id={styles.loginBlock}>
 					<div id={styles.logo}>
 						<img src={require(`../drawable/logo.png`)} />
